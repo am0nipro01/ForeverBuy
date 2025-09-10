@@ -1,4 +1,14 @@
 import { Routes, Route } from "react-router-dom"
+import Navbar from "./components/Navbar"
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Cart from "./pages/Cart";
+import Collection from "./pages/Collection";
+import Contact from "./pages/Contact";
+import Login from "./pages/Login";
+import Orders from "./pages/Orders";
+import PlaceOrder from "./pages/PlaceOrder";
+import Product from "./pages/Product";
 
 const App = () => {
   // state, data
@@ -8,7 +18,8 @@ const App = () => {
   // render
   return (
     <>
-      <div className=".px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+      <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path="/about" element={<About/>} />
