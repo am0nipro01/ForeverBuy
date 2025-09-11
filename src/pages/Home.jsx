@@ -1,3 +1,5 @@
+import Hero from "../components/Hero"
+
 const Home = () => {
   // state, data
 
@@ -6,7 +8,7 @@ const Home = () => {
   // render
   return (
     <>
-      
+      <Hero />
     </>
   )
 }
