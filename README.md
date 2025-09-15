@@ -12,15 +12,6 @@ But : avoir une application fonctionnelle avec front-end, back-end, authentifica
 - [Technologies](#technologies)  
 - [Prérequis](#prérequis)  
 - [Installation](#installation)  
-- [Configuration](#configuration)  
-- [Démarrage](#démarrage)  
-- [Structure du projet](#structure-du-projet)  
-- [Utilisation](#utilisation)  
-- [Tests](#tests)  
-- [Déploiement](#déploiement)  
-- [Limitations connues](#limitations-connues)  
-- [Contribuer](#contribuer)  
-- [Licence](#licence)  
 
 ---
 
