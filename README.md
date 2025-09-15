@@ -1,4 +1,4 @@
-# E-Commerce M-Stack
+# E-Commerce ForeverBuy
 
 **Projet** : Site e-commerce complet utilisant le stack MERN (MongoDB, Express, React, Node).  
 But : avoir une application fonctionnelle avec front-end, back-end, authentification, paiement, gestion des produits & commandes.
