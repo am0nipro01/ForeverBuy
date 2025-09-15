@@ -3,6 +3,7 @@
 **Projet** : Site e-commerce complet utilisant le stack MERN (MongoDB, Express, React, Node).  
 But : avoir une application fonctionnelle avec front-end, back-end, authentification, paiement, gestion des produits & commandes.
 
+![ecran](./assets/ecran.png)
 ---
 
 ## Table des matières
