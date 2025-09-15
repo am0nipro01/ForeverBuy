@@ -5,17 +5,22 @@ import ProductItem from "./ProductItem";
 
 
 const LatestCollection = () => {
+  // state, data
   // récupère products depuis le contexte
   const { products } = useContext(ShopContext);
 
   const [latestProducts, setLatestProducts] = useState([]);
 
+
+  // behaviour
   useEffect(() => {
     if (products) {
       setLatestProducts(products.slice(0, 10));
     }
   }, [products]);
 
+
+  // render
   return (
     <div className="my-10">
       <div className="text-center py-8 text-3xl">
