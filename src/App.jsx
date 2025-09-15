@@ -32,7 +32,7 @@ const App = () => {
           <Route path="/place-order" element={<PlaceOrder/>} />
           <Route path="/product/:productId" element={<Product/>} />
         </Routes>
-        <Footer />
+        <Footer />  
       </div>
     </>
   )
