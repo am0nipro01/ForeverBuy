@@ -34,15 +34,15 @@ Voici ce que comprend ce projet :
 
 ## Technologies
 
-| Composant | Technologies utilisées probables |
+| Composant | Technologies utilisées |
 |--|--|
-| Front-end | React, React Router, Axios (ou fetch), bibliothèque d’UI (ex : Material-UI, Bootstrap, Tailwind) |
+| Front-end | React, React Router, Axios (ou fetch), bibliothèque d’UI (Tailwind) |
 | Back-end | Node.js, Express |
 | Base de données | MongoDB |
 | Authentification | JWT |
 | Paiement | Stripe ou PayPal ou équivalent |
-| Stockage fichiers (images) | Local ou service externe (ex : Cloudinary) |
-| Environnement de dev | Node version X, npm ou yarn |
+| Stockage fichiers (images) | Local |
+| Environnement de dev | Node |
 
 ---
 
@@ -50,8 +50,8 @@ Voici ce que comprend ce projet :
 
 Avant de lancer le projet, il te faut :
 
-- Node.js (version ≥ X)  
-- npm ou yarn  
+- Node.js (version ≥ 22.18.0)  
+- npm
 - MongoDB installé localement ou accès à une base distante  
 - Compte API pour le service de paiement que tu utilises  
 - Eventuellement service d’hébergement d’images si pas local  
